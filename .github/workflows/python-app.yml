@@ -40,9 +40,8 @@ jobs:
         pytest --alluredir=Report --headless
         
     - name: Test Report
-      uses: dorny/test-reporter@v1
-      if: success() || failure()    # run this step even if previous step failed
+      uses: dima-engineer/pytest-reporter@v1.0.1
       with:
-        name: JEST Tests            # Name of the check run which will be created
-        path: Report/*.json         # Path to test results
-        reporter: dart-json         # Format of test results
+          cov-omit-list: Finance/*
+          cov-threshold-single: 10
+          cov-threshold-total: 10
