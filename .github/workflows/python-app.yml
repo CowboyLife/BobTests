@@ -27,7 +27,7 @@ jobs:
         pip install pytest
         pip install pytest-order
         pip install pytest-dependency
-        pip instsall allure-pytest
+        pip install allure-pytest
         npm install -g allure-commandline --save-dev
         
     - name: Lint with flake8
