@@ -39,8 +39,8 @@ jobs:
       run: |
         pytest --alluredir=Report --headless
         
-    - name: Test Report
-      uses: dima-engineer/pytest-reporter@v1.0.1
+    - name: pytest-reporter
+      uses: dima-engineer/pytest-reporter@v1.1.3
       with:
           cov-omit-list: Finance/*
           cov-threshold-single: 10
