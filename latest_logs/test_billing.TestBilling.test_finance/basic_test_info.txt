@@ -1,0 +1,16 @@
+test_billing.py::TestBilling::test_finance
+--------------------------------------------------------------------
+Last Page: data:,
+  Browser: chrome (103.0.5060.66 / headless)
+   Driver: chromedriver (103.0.5060.53)
+Timestamp: 1656752374  (Unix Timestamp)
+     Date: Saturday, 2 July 2022
+     Time: 11:59:34 AM  (Jerusalem Daylight Time, UTC+02:00)
+--------------------------------------------------------------------
+Traceback: File "E:\python\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "E:\python\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\USER\PycharmProjects\BobTest\Finance\test_billing.py", line 16, in test_finance
+    assert False
+Exception: assert False
