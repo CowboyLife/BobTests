@@ -45,4 +45,4 @@ jobs:
       with:
         name: JEST Tests            # Name of the check run which will be created
         path: Report/*.json         # Path to test results
-        reporter: mocha-json        # Format of test results
+        reporter: flutter-json      # Format of test results
