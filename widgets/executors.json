@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://CowboyLife.github.io/BobTests",
+  "buildOrder" : 13,
+  "buildName" : "GitHub Actions Run #2604092788",
+  "buildUrl" : "https://github.com/CowboyLife/BobTests/actions/runs/2604092788",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://CowboyLife.github.io/BobTests/13/"
+} ]
